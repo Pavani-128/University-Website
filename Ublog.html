@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website</title>
+	<link rel="stylesheet" href="css/university.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<div class="sub-bgimage">
+		
+		<nav>
+			<img src="images/clglogo.png" alt="error">
+		<div class="navitems" id="navitems">
+			<i class="bi bi-x" onclick="hideMenu()"></i>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="UAbout.html">About</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="Ublog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Certificates & Online Programs For 2024</h1>
+	</div>
+	<div class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="images/certificate.jpg" alt="error">
+				<h2>Our Certificates & Online Programs For 2024</h2>
+				<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Adipisci quaerat nesciunt eveniet enim eaque eos doloribus sunt, laboriosam voluptatem expedita molestiae, cum? Expedita ex deleniti facilis illum, cumque quam, amet, similique quod cupiditate doloremque rerum. Aliquam, voluptatum temporibus non doloremque.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quae, aut! Inventore, quas laborum perferendis nisi exercitationem. Sint perspiciatis iste eveniet quam, vero eum facere nihil iure amet quo unde tempore velit et natus dolores facilis nam consectetur incidunt provident non pariatur soluta voluptate veniam quis minus? Quos beatae, nostrum!</p>
+				<br>
+				<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Optio ipsum exercitationem repellat veniam rem, dolorem corrupti sunt repudiandae, dolore libero modi accusamus hic delectus, excepturi iure inventore aperiam laborum. Obcaecati adipisci hic nemo, quo mollitia soluta, ducimus dolores nostrum expedita saepe, facilis! A, ullam sint blanditiis molestiae unde quaerat quisquam!</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fuga quidem unde aspernatur placeat tenetur vitae totam aut quasi laborum, quas distinctio nam mollitia tempore suscipit laudantium optio quos nihil.</p>
+
+				<div class="comment-box">
+					<h3>Leave a Comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter Your Name">
+						<input type="email" placeholder="Enter Your Email">
+						<textarea rows="5" placeholder="Enter Your Comment"></textarea>
+						<button type="submit" class="Visit red-btn">Post Comment</button>
+					</form>
+				</div>
+			</div>
+			<div class="blog-right">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>28</span>
+				</div>
+				<div>
+					<span>Machine Learning</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>34</span>
+				</div>
+				<div>
+					<span>AutoCAD</span>
+					<span>42</span>
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>Commerce </span>
+					<span>30</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, deleniti?<br> Veniam reprehenderit dolorum consequatur praesentium.</p>
+		<div class="icons">
+			<i class="bi bi-facebook"></i>
+			<i class="bi bi-instagram"></i>
+			<i class="bi bi-twitter"></i>
+			<i class="bi bi-linkedin"></i>
+		</div>
+		<p>Made With <i class="bi bi-heart"></i> By Pavani</p>
+	</div>
+	<script>
+		var navitems = document.getElementById('navitems');
+		function showMenu(){
+			navitems.style.right = "0";
+		}
+		function hideMenu(){
+			navitems.style.right = "-200px"
+		}
+	</script>
+</body>
+</html>

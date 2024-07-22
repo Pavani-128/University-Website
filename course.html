@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website</title>
+	<link rel="stylesheet" href="css/university.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<div class="sub-bgimage">
+		
+		<nav>
+			<img src="images/clglogo.png" alt="error">
+		<div class="navitems" id="navitems">
+			<i class="bi bi-x" onclick="hideMenu()"></i>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="UAbout.html">About</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="Ublog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Courses</h1>
+	</div>
+	<div class="courses">
+		<h1>Courses We Offer</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Earum, cumque?</p>
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis aperiam pariatur neque tempore. Est placeat dignissimos dicta repudiandae accusantium!</p>
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque minus illum dignissimos sunt architecto laudantium a est soluta esse.</p>
+			</div>
+			<div class="course-col">
+				<h3>Post Graduation</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, non numquam harum sit inventore animi sapiente excepturi cupiditate magnam minima.</p>
+			</div>
+		</div>
+	</div>
+	<div class="facilities">
+		<h1>Our Facilities</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/library.png" alt="error">
+				<h3>World Class Library</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, incidunt est magnam!</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/basketball.png" alt="error">
+				<h3>Largest Play Ground</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, incidunt est magnam!</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/cafeteria.png" alt="error">
+				<h3>Tasty And Healty Food</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, incidunt est magnam!</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, deleniti?<br> Veniam reprehenderit dolorum consequatur praesentium.</p>
+		<div class="icons">
+			<i class="bi bi-facebook"></i>
+			<i class="bi bi-instagram"></i>
+			<i class="bi bi-twitter"></i>
+			<i class="bi bi-linkedin"></i>
+		</div>
+		<p>Made With <i class="bi bi-heart"></i> By Pavani</p>
+	</div>
+	<script>
+		var navitems = document.getElementById('navitems');
+		function showMenu(){
+			navitems.style.right = "0";
+		}
+		function hideMenu(){
+			navitems.style.right = "-200px"
+		}
+	</script>
+</body>
+</html>
